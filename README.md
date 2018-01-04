@@ -25,6 +25,7 @@ https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxNzU1ODM4NA==&scene
 同样使用chrome api puppeteer。 由于微信页面的图片是在滑动停止后一段时间(测试值大概是>300ms)才加载, 所以滑动的间隔应该调整的稍微大一些(300ms+网络延迟)。
 
 *注意pdf下载只在headless模式下有效*
+
 *使用puppeteer附带的chromium，或者最新belta版本的chrome才可以确保正确运行*
 
 
